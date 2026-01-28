@@ -1,0 +1,37 @@
+/*combinators te ndryshem*/
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+article > p{
+    background: red;
+}
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+article + p{
+    background: orange;
+}
+form{
+    margin-top: 20px;
+}
+
+/*gjendja e elementit  - pseudo-class*/
+input:invalid{
+    border: 2px solid red;
+}
+
+/* elementi specifik qe dojm me editu - pseudo-element*/
+span:first-of-type{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/*opacity*/
+div{
+    opacity: 0.5;
+}
