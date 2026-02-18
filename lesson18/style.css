@@ -1,0 +1,42 @@
+/*ZOOM IN*/
+
+#speedsters img {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+#speedsters img:hover {
+    transform: scale(1.3);
+}
+
+/*SLIDE*/
+
+#hipsters img {
+    margin-left: 0px;
+    transition: .3s ease-in-out;
+}
+
+#hipsters img:hover {
+    margin-left: 30px;
+}
+
+/*BLUR*/
+
+#shadows img {
+    filter: blur(0px);
+    transition: .3s ease-in-out;
+}
+
+#shadows:hover img {
+    filter: blur(3px);
+}
+
+/*GREY SCALE*/
+#engineers img {
+    filter: grayscale(0%);
+    transition: .3s ease-in-out;
+}
+
+#engineers:hover img {
+    filter: grayscale(100%);
+}
