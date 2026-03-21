@@ -13,3 +13,27 @@ p{
     margin-left: 100px;
     color: white;
 }
+
+img{
+    margin-left: 700px;
+}
+
+h2{
+    color: #D4AF37;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li.active{
+    background-color: #0B1F3B;
+    border-radius: 5px;
+}
