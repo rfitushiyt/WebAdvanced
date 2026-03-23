@@ -27,3 +27,53 @@ nav ul li.active{
     border-radius: 5px;
 }
 
+img{
+    margin-left: 500px;
+}
+
+h2{
+    color: #D4AF37;
+    text-align: center;
+}
+
+.title-box p{
+    text-align: center;
+}
+
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #1A3A8F;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input[type="submit"]{
+    background-color: #1A3A8F;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: #D4AF37;
+}

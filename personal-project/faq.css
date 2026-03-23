@@ -15,7 +15,7 @@ p{
 }
 
 img{
-    margin-left: 700px;
+    margin-left: 550px;
 }
 
 h2{
@@ -36,4 +36,66 @@ nav ul li a{
 nav ul li.active{
     background-color: #0B1F3B;
     border-radius: 5px;
+}
+
+#section-3{
+    background-color: #1A3A8F;
+    min-height: 820px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    display: flex;
+}
+
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #2047B1;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input[type="submit"]{
+    background-color: #D4AF37;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: #1A3A8F;
 }
