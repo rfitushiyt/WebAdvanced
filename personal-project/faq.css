@@ -1,101 +1,67 @@
-body{
-    background-color: #1A3A8F ;
+body {
+    background-color: #1A3A8F;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+h1 {
     color: #D4AF37;
     text-align: center;
+    margin-top: 40px;
 }
 
-p{
+h2 {
+    color: #D4AF37;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
     font-size: 20px;
-    margin-top: 150px;
-    margin-left: 100px;
     color: white;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
 }
 
-img{
-    margin-left: 550px;
+.faq-content p {
+    margin-bottom: 30px;
 }
 
-h2{
-    color: #D4AF37;
+nav ul {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     padding: 10px 16px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
 }
 
-nav ul li.active{
+nav ul li a:hover {
+    background-color: #D4AF37;
+    color: #0B1F3B;
+    border-radius: 5px;
+}
+
+nav ul li.active a {
     background-color: #0B1F3B;
     border-radius: 5px;
 }
 
-#section-3{
-    background-color: #1A3A8F;
-    min-height: 820px;
-    color: white;
-}
-
-h2{
-    text-align: center;
-}
-
-p{
-    text-align: center;
-}
-
-#contact-form{
-    max-width: 860px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-row{
-    display: flex;
-}
-
-input[type="text"], input[type="email"]{
-    width: 46%;
-    height: 56px;
-}
-
-input[type="text"], input[type="email"], textarea{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background-color: #2047B1;
-    border: none;
-    font-size: 18px;
-    margin: 16px;
-    border-radius: 5px;
-    padding-left: 26px;
-}
-
-textarea{
-    height: 200px;
-    width: 100%;
-    padding-top: 24px;
-}
-
-input[type="submit"]{
-    background-color: #D4AF37;
-    border: none;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    margin-top: 60px;
-}
-
-.big-button{
-    padding: 25px 85px;
-    color: #1A3A8F;
+img {
+    display: block;
+    margin: 40px auto;
+    max-width: 500px;
+    height: auto;
 }
