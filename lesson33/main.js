@@ -30,5 +30,13 @@ function validation(){
             document.getElementById("city").style.borderColor = "green";
         }
         return false;
+    }else{
+        document.getElementById("name_error").style.visibility = "hidden";
+        document.getElementById("name").style.borderColor = "green";
+        document.getElementById("age_error").style.visibility = "hidden";
+        document.getElementById("age").style.borderColor = "green";
+        document.getElementById("city_error").style.visibility = "hidden";
+        document.getElementById("city").style.borderColor = "green";
+        return true;
     }
 }
